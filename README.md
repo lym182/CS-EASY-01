@@ -31,11 +31,11 @@
 ## 基础语法运用
 ```
 #include <stdio.h>
-
-int mian() {
+#include <stdlib.h>
+int main() {
     int code;
 
-    printf("Show me your code,please.");
+    printf("Show me your code,please.\n");
     scanf("%d",&code);
 
     if(code >= 100000 && code <= 999999){
@@ -44,6 +44,7 @@ int mian() {
     else {
         printf("Fake code!");
     }
+    system("pause");
     return 0;
 }
 ```
